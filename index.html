@@ -4,69 +4,179 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>TNT Automotive Services | Mobile Auto Repair | Scott City, MO</title>
-  <meta name="description" content="TNT Automotive Services offers fast, affordable mobile auto repair in Scott City, MO and surrounding areas. Call (573) 217-0015." />
+  <meta name="description" content="TNT Automotive Services provides fast, affordable mobile auto repair in Scott City, MO and surrounding areas. Call or text (573) 217-0015." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<header class="hero">
-  <div class="overlay"></div>
-  <div class="hero-content">
-    <h1>TNT Automotive Services</h1>
-    <p>Reliable Mobile Auto Repair • Scott City, MO</p>
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="#">
+      <img class="brand-logo" src="assets/tnt-logo.png" alt="TNT Automotive Services logo" />
+      <div class="brand-text">
+        <span class="brand-name">TNT Automotive Services</span>
+        <span class="brand-tag">Mobile Auto Repair • Scott City, MO</span>
+      </div>
+    </a>
 
-    <a class="btn" href="tel:+15732170015">Call Now</a>
-    <a class="btn" style="margin-left:10px" href="sms:+15732170015">Text Now</a>
+    <div class="topbar-actions">
+      <a class="chip" href="tel:+15732170015">Call: (573) 217-0015</a>
+      <a class="btn small" href="sms:+15732170015">Text</a>
+    </div>
   </div>
 </header>
 
-<section class="about">
-  <h2>Fast. Honest. Mobile.</h2>
-  <p>
-    We come to you — saving you time and hassle. Oil changes, brakes, diagnostics,
-    tire rotations, batteries, and minor repairs across Scott City and nearby areas.
-  </p>
-</section>
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
 
-<section class="services">
-  <h2>Services</h2>
-  <div class="service-grid">
-    <div>Oil Changes</div>
-    <div>Brake Repairs</div>
-    <div>Tire Rotations</div>
-    <div>Battery Replacement</div>
-    <div>Diagnostics</div>
-    <div>Minor Repairs</div>
+  <div class="container hero-content">
+    <div class="hero-left">
+      <h1>Mobile Auto Repair That Shows Up.</h1>
+      <p>
+        Fast, honest service at your home, work, or roadside.
+        Serving Scott City and surrounding areas.
+      </p>
+
+      <div class="hero-cta">
+        <a class="btn" href="tel:+15732170015">📞 Call Now</a>
+        <a class="btn outline" href="sms:+15732170015">💬 Text Now</a>
+      </div>
+
+      <div class="badges">
+        <span class="badge">Oil Changes</span>
+        <span class="badge">Brakes</span>
+        <span class="badge">Diagnostics</span>
+        <span class="badge">Batteries</span>
+        <span class="badge">Tires</span>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="logo-card">
+        <img src="assets/tnt-logo.png" alt="TNT Automotive Services" />
+        <div class="logo-card-text">
+          <strong>Scott City, MO</strong>
+          <span>Mobile service by appointment</span>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="cta">
-  <h2>Need Service Today?</h2>
-  <p>Call or text now to get a quick quote.</p>
-  <a class="btn" href="tel:+15732170015">(573) 217-0015</a>
+<section class="section">
+  <div class="container">
+    <h2>Fast. Honest. Mobile.</h2>
+    <p class="lead">
+      No tow truck. No waiting room. We come to you and get it done.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Upfront Communication</h3>
+        <p>Clear pricing and straight answers before we touch anything.</p>
+      </div>
+      <div class="card">
+        <h3>Convenient Scheduling</h3>
+        <p>Home, work, or roadside—whatever gets you back on the road fastest.</p>
+      </div>
+      <div class="card">
+        <h3>Quality Work</h3>
+        <p>Professional service focused on reliability and safety.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="contact">
-  <h2>Contact</h2>
-  <p><strong>Phone:</strong> <a href="tel:+15732170015">(573) 217-0015</a></p>
-  <p><strong>Location:</strong> Scott City, MO</p>
+<section id="services" class="section alt">
+  <div class="container">
+    <h2>Services</h2>
+    <p class="lead">Common jobs we handle for customers in the area.</p>
 
-  <iframe
-    src="https://www.google.com/maps?q=Scott+City+MO&output=embed"
-    width="100%"
-    height="300"
-    style="border:0; border-radius:8px; margin-top:16px;"
-    loading="lazy">
-  </iframe>
+    <div class="grid services">
+      <div class="card">
+        <h3>Oil Changes</h3>
+        <p>Quick service, correct oil + filter, reset reminders.</p>
+      </div>
+      <div class="card">
+        <h3>Brakes</h3>
+        <p>Pads/rotors inspection and replacement.</p>
+      </div>
+      <div class="card">
+        <h3>Diagnostics</h3>
+        <p>Check-engine light, starting issues, drivability concerns.</p>
+      </div>
+      <div class="card">
+        <h3>Batteries</h3>
+        <p>Test, replacement, and basic charging system checks.</p>
+      </div>
+      <div class="card">
+        <h3>Tire Rotations</h3>
+        <p>Rotation, inspection, and pressure check.</p>
+      </div>
+      <div class="card">
+        <h3>Minor Repairs</h3>
+        <p>Common fixes—tell us what’s going on and we’ll confirm.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<footer>
-  <p>© <span id="year"></span> TNT Automotive Services</p>
+<section id="contact" class="section">
+  <div class="container">
+    <h2>Contact</h2>
+    <p class="lead">Call or text for availability and a quick quote.</p>
+
+    <div class="contact-box">
+      <div class="contact-left">
+        <div class="contact-row">
+          <span class="label">Phone</span>
+          <a class="value" href="tel:+15732170015">(573) 217-0015</a>
+        </div>
+        <div class="contact-row">
+          <span class="label">Service Area</span>
+          <span class="value">Scott City, MO & surrounding areas</span>
+        </div>
+        <div class="contact-row">
+          <span class="label">Hours</span>
+          <span class="value">By appointment</span>
+        </div>
+
+        <div class="contact-actions">
+          <a class="btn" href="tel:+15732170015">📞 Call</a>
+          <a class="btn outline" href="sms:+15732170015">💬 Text</a>
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <iframe
+          title="Scott City Missouri Map"
+          src="https://www.google.com/maps?q=Scott+City+MO&output=embed"
+          width="100%"
+          height="320"
+          style="border:0; border-radius:12px;"
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-left">
+      <img class="footer-logo" src="assets/tnt-logo.png" alt="TNT Automotive Services logo" />
+      <div>
+        <strong>TNT Automotive Services</strong>
+        <div class="muted">Mobile Auto Repair • Scott City, MO</div>
+      </div>
+    </div>
+    <div class="footer-right">
+      © <span id="year"></span> TNT Automotive Services
+    </div>
+  </div>
 </footer>
 
 <script src="script.js"></script>
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
 </body>
 </html>

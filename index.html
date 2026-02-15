@@ -1,102 +1,72 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TNT Automotive Services | Mobile Auto Repair | Scott City, MO</title>
+  <meta name="description" content="TNT Automotive Services offers fast, affordable mobile auto repair in Scott City, MO and surrounding areas. Call (573) 217-0015." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-body {
-  background: #111;
-  color: #f4f4f4;
-  line-height: 1.6;
-}
+<header class="hero">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1>TNT Automotive Services</h1>
+    <p>Reliable Mobile Auto Repair • Scott City, MO</p>
 
-/* HERO */
-.hero {
-  position: relative;
-  height: 85vh;
-  background: url("https://images.unsplash.com/photo-1515923161250-5a0e07e45b33") center/cover no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+    <a class="btn" href="tel:+15732170015">Call Now</a>
+    <a class="btn" style="margin-left:10px" href="sms:+15732170015">Text Now</a>
+  </div>
+</header>
 
-.hero .overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.65);
-}
+<section class="about">
+  <h2>Fast. Honest. Mobile.</h2>
+  <p>
+    We come to you — saving you time and hassle. Oil changes, brakes, diagnostics,
+    tire rotations, batteries, and minor repairs across Scott City and nearby areas.
+  </p>
+</section>
 
-.hero-content {
-  position: relative;
-  text-align: center;
-  z-index: 2;
-}
+<section class="services">
+  <h2>Services</h2>
+  <div class="service-grid">
+    <div>Oil Changes</div>
+    <div>Brake Repairs</div>
+    <div>Tire Rotations</div>
+    <div>Battery Replacement</div>
+    <div>Diagnostics</div>
+    <div>Minor Repairs</div>
+  </div>
+</section>
 
-.hero h1 {
-  font-size: 3rem;
-  color: #e5b567;
-}
+<section class="cta">
+  <h2>Need Service Today?</h2>
+  <p>Call or text now to get a quick quote.</p>
+  <a class="btn" href="tel:+15732170015">(573) 217-0015</a>
+</section>
 
-.hero p {
-  margin: 15px 0;
-  font-size: 1.2rem;
-}
+<section class="contact">
+  <h2>Contact</h2>
+  <p><strong>Phone:</strong> <a href="tel:+15732170015">(573) 217-0015</a></p>
+  <p><strong>Location:</strong> Scott City, MO</p>
 
-/* BUTTON */
-.btn {
-  background: #e5b567;
-  color: #111;
-  padding: 14px 30px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 4px;
-  display: inline-block;
-}
+  <iframe
+    src="https://www.google.com/maps?q=Scott+City+MO&output=embed"
+    width="100%"
+    height="300"
+    style="border:0; border-radius:8px; margin-top:16px;"
+    loading="lazy">
+  </iframe>
+</section>
 
-/* SECTIONS */
-section {
-  padding: 60px 20px;
-  max-width: 1100px;
-  margin: auto;
-  text-align: center;
-}
+<footer>
+  <p>© <span id="year"></span> TNT Automotive Services</p>
+</footer>
 
-.about p {
-  max-width: 700px;
-  margin: auto;
-}
-
-.services h2,
-.about h2,
-.contact h2,
-.cta h2 {
-  color: #e5b567;
-  margin-bottom: 20px;
-}
-
-.service-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 15px;
-  margin-top: 30px;
-}
-
-.service-grid div {
-  background: #1c1c1c;
-  padding: 20px;
-  border-radius: 6px;
-}
-
-/* CTA */
-.cta {
-  background: #1a1a1a;
-}
-
-/* FOOTER */
-footer {
-  background: #000;
-  padding: 20px;
-  text-align: center;
-  font-size: 0.9rem;
-}
+<script src="script.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
